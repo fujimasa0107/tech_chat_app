@@ -1,0 +1,16 @@
+<%= link_to "投稿ページ", "/questions/new" %>
+
+<% @questions.each do |question| %>
+  <div class = "question">
+    <div class = "question-taite">
+      タイトル：<%= question.taite %>
+    </div>
+    <div class = "content">
+      内容：<%= question.content %>
+    </div>
+    <div class = "name">
+      投稿者：<%= question.name %>
+    </div>
+  </div>
+  <% end %>
+    
