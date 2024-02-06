@@ -12,6 +12,13 @@
 
   <body>
     <header>
+      <div class="header-tite">
+        <%= link_to 'TechChat', '/' %>
+      </div>
+      <div class="header-right-btn">  
+        <%= link_to '質問する', '/questions/new' %>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
