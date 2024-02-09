@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
     <header>
-      <div class="header-tite">
-        <%= link_to 'TechChat', '/' %>
-      </div>
-      <div class="header-right-btn">  
-        <%= link_to '質問する', '/questions/new' %>
+      <div class="header-box">
+        <div class="header-tite">
+          <%= link_to 'TechChat', '/' %>
+        </div>
+        <div class="header-right-btn">  
+          <%= link_to '質問する', '/questions/new' %>
+        </div>
       </div>
     </header>
+
     <%= yield %>
   </body>
 </html>

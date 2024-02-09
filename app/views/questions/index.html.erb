@@ -1,6 +1,29 @@
-<% @questions.each do |question| %>
-  タイトル：<%= question.title %><br>
-  内容：<%= question.content %><br>
-  投稿者名：<%= question.name %><br><br>
-<% end %>
-    
+    <!--画面全体-->
+    <div class="main-index">
+      <div class="index-box">
+      
+  <!-- 右部分コメント -->
+        <% @questions.each do |question| %>
+                <!-- 左部分カウント -->
+      <div class="messges-box">
+        <div class="Comment-numbers">
+          <div class="number">0</div>
+          <div class="comment">comments</div>
+        </div>
+          <div class="questions-box">
+            <div class="title-user">  
+              <div class="title">
+                <%= question.title %>
+              </div>
+              <div class="user">
+                <%= question.name %>
+              </div>
+            </div>
+            <div class="questions">
+              <%= question.content %>
+            </div>
+          </div>
+        </div>
+        <% end %>
+    </div>
+</div>

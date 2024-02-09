@@ -17,3 +17,107 @@
     padding: 0;
   }
   
+/*********indexページ*****************/
+
+.main-index {
+  height: calc(100vh - 65px);
+  background-color: #f2f2f3;
+  padding-top: 90px;
+}
+
+.index-box{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.messges-box {
+  width: 700px;
+  display: flex;
+  margin-bottom: 25px;
+}
+/**********左部分カウント**************/
+.Comment-numbers{
+  height: 100px;
+  width: 70px;
+  background-color: #1C3667;
+  border-radius: 5px 0 0 5px;
+  padding-top: 20px;
+}
+
+.number {
+  height: 38px;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+.comment {
+  height: 16px;
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+}
+
+/**********右部分コメント**************/
+.questions-box{
+  height: 100px;
+  width: calc(700px - 70px);
+  padding: 20px;
+  background-color: #FFF;
+}
+
+.title-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*********newページ*****************/
+
+.new-wrapper {
+  height: calc(100vh - 65px);
+  padding-top: 80px 0;
+  background-color: #f2f2f3;
+}
+
+.new-outer {
+  width: 700px;
+  margin: 0 auto ;
+}
+
+.new-content-box {
+  width: 700px;
+}
+
+.content-header {
+  height: 45px;
+  border-radius: 5px;
+  background-color: #1C3667;
+}
+
+.content-box {
+  width: 520px;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #FFF;
+}
+
+.text input[type="text"] {
+  height: 30px;
+  width: 520px;
+  margin-bottom: 15px;
+}
+
+.content textarea {
+  height: 120px;
+  width: 520px;
+  margin-bottom: 15px;
+}
+
+.send input[type="submit"] {
+  height: 36px;
+  width: 520px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #1c3667;
+  border: none;
+}
