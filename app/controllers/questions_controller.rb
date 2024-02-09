@@ -5,11 +5,11 @@ class QuestionsController < ApplicationController
   end
 
   def new
-    @questions = Question.new
+    @question = Question.new
   end
 
   def create
-    Question.create(questions_params)
+    Question.create(question_params)
     redirect_to action: :index
   end
 

@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.0].define(version: 2024_02_02_022619) do
   create_table "questions", charset: "utf8", force: :cascade do |t|
-    t.string "taite"
+    t.string "title"
     t.text "content"
     t.string "name"
     t.datetime "created_at", null: false
