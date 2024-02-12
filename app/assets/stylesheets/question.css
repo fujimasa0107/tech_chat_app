@@ -84,6 +84,10 @@
   margin: 0 auto ;
 }
 
+.new-contents-box {
+  margin-top: 80px;
+}
+
 .new-content-box {
   width: 700px;
 }
