@@ -125,3 +125,51 @@
   background-color: #1c3667;
   border: none;
 }
+/************showページ******************/
+.question-box {
+  margin-bottom: 50px;
+}
+
+.question-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.question-content {
+  text-align: center;
+}
+
+.question-name {
+  text-align: center;
+}
+
+.question-header {
+  margin-bottom: 30px;
+}
+.question-logo {
+  text-align: center;
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.answer-header {
+  height: 45px;
+  border-radius: 5px;
+  background-color: #1C3667;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-logo {
+  color: white;
+}
+
+.answer-content-box {
+  width: 520px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
